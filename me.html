@@ -8,7 +8,10 @@
     <link rel="stylesheet" href="getting-to-know-me.css">
 </head>
 <body>
-    <h1>Nick Krzysiak </h1>
+    <h1 id="name">Nick Krzysiak </h1>
+    <button type="namecolor" onclick="changecolor()">Change Name Color</button>
+    <br>
+    <br>
     <a href="mailto:nicholasakrzysiak@lewisu.edu" class="button1">nicholasakrzysiak@lewisu.edu</a>
     <h3>Discord: nick_krzysiak</h3>
     
@@ -36,7 +39,13 @@
       <a href="https://www.scienceandmediamuseum.org.uk/objects-and-stories/short-history-internet" class="button1">TCP/IP and the World Wide Web</a> 
       <a href="https://history-computer.com/complete-history-of-the-operating-system/" class="button1">Operating Systems</a> 
       <a href="https://www.britannica.com/technology/ENIAC" class="button1">The First Digital Computer</a> 
-      <script></script>
+
+      
+      <script>
+        function changecolor(){
+        document.getElementById("name").style.color = "blue";
+        }
+      </script>
 </body>
 
 
