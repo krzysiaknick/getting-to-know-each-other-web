@@ -28,7 +28,7 @@ img {
 border-radius: 70px;
 }
 
-.button1{
+.button1 {
     display: inline-block;
     border-radius: 20px;
     padding: 20px;
@@ -40,10 +40,6 @@ border-radius: 70px;
     font-weight: bold;
     border-style: solid;
 
-
-    &:hover {
-    background-color: rgba(219, 199, 149, 0.993);
-   }
 }
 
 
